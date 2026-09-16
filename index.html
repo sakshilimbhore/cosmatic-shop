@@ -3,197 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glow Beauty - Cosmetic Shop</title>
+    <title>Beauty Glow - Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Navigation Bar -->
-    <header>
-        <nav class="navbar">
-            <div class="logo">Glow<span>Beauty</span></div>
+<header>
+    <nav class="navbar">
+        <div class="logo">Beauty<span>Glow</span></div>
 
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#categories">Categories</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-            <div class="cart">🛒 Cart</div>
-        </nav>
-    </header>
+<section class="hero">
+    <div class="hero-content">
+        <h1>Discover Your <span>Natural Beauty</span></h1>
+        <p>
+            Welcome to BeautyGlow Cosmetic Shop.
+            Find premium makeup, skincare, haircare and beauty products.
+        </p>
+        <a href="product.html" class="btn">Shop Now</a>
+    </div>
+</section>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-content">
-            <h1>Enhance Your <span>Natural Beauty</span></h1>
-            <p>
-                Discover premium cosmetics and beauty products
-                for your everyday beauty needs.
-            </p>
-            <a href="#products" class="btn">Shop Now</a>
+<section class="features">
+    <h2>Why Choose Us?</h2>
+
+    <div class="feature-container">
+        <div class="feature-card">
+            <div class="icon">💄</div>
+            <h3>Quality Products</h3>
+            <p>We provide quality cosmetic products for your beauty needs.</p>
         </div>
-    </section>
 
-    <!-- Categories -->
-    <section class="section" id="categories">
-        <h2>Shop By Category</h2>
-        <p class="section-text">Find everything you need in one place</p>
-
-        <div class="category-container">
-            <div class="category-card">
-                <div class="category-icon">💄</div>
-                <h3>Makeup</h3>
-                <p>Lipsticks, foundation, mascara and more.</p>
-            </div>
-
-            <div class="category-card">
-                <div class="category-icon">🧴</div>
-                <h3>Skin Care</h3>
-                <p>Creams, cleansers, serums and moisturizers.</p>
-            </div>
-
-            <div class="category-card">
-                <div class="category-icon">💇</div>
-                <h3>Hair Care</h3>
-                <p>Shampoo, conditioner, oils and treatments.</p>
-            </div>
-
-            <div class="category-card">
-                <div class="category-icon">🌸</div>
-                <h3>Fragrance</h3>
-                <p>Perfumes and fragrances for every occasion.</p>
-            </div>
+        <div class="feature-card">
+            <div class="icon">🚚</div>
+            <h3>Fast Delivery</h3>
+            <p>Get your favorite products delivered quickly and safely.</p>
         </div>
-    </section>
 
-    <!-- Products -->
-    <section class="section products-section" id="products">
-        <h2>Our Products</h2>
-        <p class="section-text">Popular beauty products</p>
-
-        <div class="product-container">
-
-            <div class="product-card">
-                <div class="product-image pink">💄</div>
-                <div class="product-info">
-                    <h3>Matte Lipstick</h3>
-                    <p>Long-lasting matte finish</p>
-                    <div class="price">₹299</div>
-                    <button>Add to Cart</button>
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="product-image purple">🧴</div>
-                <div class="product-info">
-                    <h3>Face Serum</h3>
-                    <p>Vitamin C face serum</p>
-                    <div class="price">₹499</div>
-                    <button>Add to Cart</button>
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="product-image peach">✨</div>
-                <div class="product-info">
-                    <h3>Face Cream</h3>
-                    <p>Moisturizing beauty cream</p>
-                    <div class="price">₹349</div>
-                    <button>Add to Cart</button>
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="product-image blue">🧴</div>
-                <div class="product-info">
-                    <h3>Hair Shampoo</h3>
-                    <p>Gentle hair care shampoo</p>
-                    <div class="price">₹279</div>
-                    <button>Add to Cart</button>
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="product-image rose">🌸</div>
-                <div class="product-info">
-                    <h3>Rose Perfume</h3>
-                    <p>Fresh floral fragrance</p>
-                    <div class="price">₹699</div>
-                    <button>Add to Cart</button>
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="product-image gold">✨</div>
-                <div class="product-info">
-                    <h3>Highlighter</h3>
-                    <p>Beautiful glowing finish</p>
-                    <div class="price">₹399</div>
-                    <button>Add to Cart</button>
-                </div>
-            </div>
-
+        <div class="feature-card">
+            <div class="icon">💖</div>
+            <h3>Best Service</h3>
+            <p>Our customers are always our first priority.</p>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- About -->
-    <section class="about" id="about">
-        <div class="about-content">
-            <h2>About GlowBeauty</h2>
-            <p>
-                GlowBeauty is a modern cosmetic shop offering a wide
-                range of makeup, skincare, haircare and fragrance products.
-                Our goal is to make quality beauty products easily
-                accessible to everyone.
-            </p>
-            <p>
-                We believe that beauty is about confidence, self-care
-                and expressing your unique personality.
-            </p>
-            <a href="#contact" class="btn">Contact Us</a>
-        </div>
-    </section>
+<section class="offer">
+    <h2>Special Beauty Offer</h2>
+    <p>Get up to <strong>30% OFF</strong> on selected cosmetic products.</p>
+    <a href="product.html" class="btn">View Products</a>
+</section>
 
-    <!-- Contact -->
-    <section class="section contact-section" id="contact">
-        <h2>Contact Us</h2>
-        <p class="section-text">We would love to hear from you</p>
-
-        <div class="contact-container">
-
-            <div class="contact-info">
-                <h3>Get In Touch</h3>
-                <p>📍 Main Market, Nagpur, Maharashtra</p>
-                <p>📞 +91 98765 43210</p>
-                <p>📧 glowbeauty@gmail.com</p>
-                <p>🕒 Mon - Sat: 10:00 AM - 8:00 PM</p>
-            </div>
-
-            <form class="contact-form">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <input type="text" placeholder="Subject">
-                <textarea rows="5" placeholder="Your Message"></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="logo">Glow<span>Beauty</span></div>
-        <p>© 2026 GlowBeauty Cosmetic Shop. All Rights Reserved.</p>
-
-        <div class="social">
-            <a href="#">Facebook</a>
-            <a href="#">Instagram</a>
-            <a href="#">Twitter</a>
-        </div>
-    </footer>
+<footer>
+    <h2>Beauty<span>Glow</span></h2>
+    <p>© 2026 BeautyGlow Cosmetic Shop. All Rights Reserved.</p>
+</footer>
 
 </body>
 </html>

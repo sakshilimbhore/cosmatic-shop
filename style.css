@@ -207,6 +207,7 @@ footer span {
     text-align: center;
     box-shadow: 0 5px 20px rgba(0,0,0,0.08);
     padding-bottom: 25px;
+    
 }
 
 .product-card:hover {
@@ -215,7 +216,8 @@ footer span {
 }
 
 .product-img {
-    height: 200px;
+      height:200px;
+     
     display: flex;
     justify-content: center;
     align-items: center;
